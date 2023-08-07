@@ -26,5 +26,6 @@ spec:
   - group: apps
     kind: *
     jsonPointers:
-    - /annotations/creation
-    - /data
+    - /metadata/annotations/creation
+    - /data/my-password
+    - /data/my-username
